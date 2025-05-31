@@ -1,0 +1,63 @@
+/* CSS for FORMULARIO MONKI*/
+
+/* Resetear margenes y paddings generales */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box; /* para que padding no expanda elementos*/
+}
+
+/* BODY */
+
+body{
+    background-color: rgb(228, 250, 243);
+}
+
+/* Aparatado Encabezado */
+
+.encabezado {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: aquamarine;
+    padding: 0.5% 0 1.5% 1.25%;
+    width: auto;
+}
+
+.doxearte{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.divisor1 {
+    border: none;            /* Elimina el borde predeterminado */
+    height: 6px;             /* Grosor de la línea */
+    background-color: #423fc2;  /* Color de la línea */
+    margin: 0 0;          /* Espacio superior e inferior */
+    width: 100%;
+}
+
+/* Apartado cajetines */
+
+.NombresGeneral, 
+.CorreoGeneral,
+.RazonGeneral {
+    padding: 1.25% 0 1.25% 1.25%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem
+}
+
+.NombresGeneral label,
+.CorreoGeneral label,
+.RazonGeneral label{
+    width: auto;
+}
+
+.NombresGeneral input,
+.CorreoGeneral input,
+.RazonGeneral textarea {
+    flex: 1;
+    max-width: 60%;
+    min-width: 30%;
+    resize:none;
+}
