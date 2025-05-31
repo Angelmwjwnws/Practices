@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🦧Formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="encabezado">
+    <h1>Formulario de contacto por si necesitas chamba</h1><br>
+    <p class="doxearte">Rellena los campos con tus datos correctos para poder asi doxearte...Digo poder contactarme contigo y darte la chamba👀:</p>
+    </div>
+    <hr class="divisor1">
+    <form action="#" method="post">
+        <div class="NombresGeneral">
+            <label for="nombre" class="tagnombres">Nombres y apellidos:</label>
+            <input type="text" id="nombre" name="nombre" required />
+        </div>
+        <div class="CorreoGeneral">
+           <label for="email" class="tagcorreo">Correo:</label>
+           <input type="email" id="email" name="email" required />
+        </div>
+        <div class="RazonGeneral">
+            <label for="razon" class="tagrazon">Razón para contratar a monito:</label>
+            <textarea id="razon" name="razon" class="cajetinrazon" rows="4"></textarea>
+         </div>
+    <div class="BotonGeneral">
+      <button type="submit" class="boton-enviar">Enviar</button>
+    </div>
+    </form>
+</body>
+</html>
